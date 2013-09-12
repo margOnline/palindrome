@@ -7,7 +7,7 @@ class Palindrome
     array[0] == array[-1] && compare?(array[1..-2])
   end
 
-  def num_to_a(n)
+  def is_palindrome?(n)
     digits = n.to_s.chars
     compare?(digits) 
   end
